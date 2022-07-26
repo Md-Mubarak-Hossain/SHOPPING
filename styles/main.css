@@ -1,0 +1,417 @@
+body {
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    font-size: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    margin: 0px;
+    text-align: right;
+    display: flex;
+}
+
+.header_1 {
+    font-size: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(251, 251, 252);
+    text-align: center;
+    display: flex;
+    box-shadow: 0 -2px rgb(96, 93, 93);
+}
+
+.header-div {
+    width: 50%;
+}
+
+.heading {
+    font-size: initial;
+    height: 70px;
+    width: 60px;
+    margin: 10px;
+}
+
+.footer {
+    margin: 0px;
+    font-size: 0px;
+    width: 100%;
+    height: 190px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.nav {
+    font-size: initial;
+    display: inline-block;
+}
+
+.ul {
+    display: flex;
+}
+
+.list {
+    height: 50px;
+    width: 60px;
+    margin: 0 15px;
+    list-style: none;
+}
+
+.imge {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 2px;
+}
+
+header .link-button-1 {
+    color: black;
+}
+
+footer .link-button-1 {
+    color: white;
+}
+
+.link-button-1 {
+    text-decoration: none;
+
+}
+
+.footer .heading-footer {
+    margin-top: 20px;
+    font-size: initial;
+    text-align: center;
+}
+
+.link-button-1:hover {
+
+    color: gold;
+    text-decoration: underline 2px solid red;
+    cursor: pointer;
+}
+
+
+/*main*/
+
+.main {
+    font-size: 0px;
+    width: 100%;
+}
+
+/*main-section-1*/
+
+.section-1 {
+    width: 100%;
+    display: block;
+    display: flex;
+    height: fit-content;
+}
+
+.section {
+    width: 100%;
+    font-size: initial;
+    margin-left: 10px;
+}
+
+.section-article {
+    display: flex;
+    font-size: initial;
+    width: 100%;
+    height: 350px;
+}
+
+.article {
+    width: 100%;
+    padding: 0 30px;
+}
+
+.article-heading {
+    text-align: center;
+}
+
+.section img {
+    width: 90%;
+    height: 370px;
+}
+
+.read-more {
+    background-color: brown;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.read-more:hover {
+    background-color: aliceblue;
+    color: blue;
+    text-decoration: underline 2px solid red;
+    cursor: pointer;
+}
+
+/*main-section-2*/
+.section-2 {
+    display: block;
+    font-size: initial;
+
+    width: 100%;
+    height: max-content;
+}
+
+#background {
+    display: inline-block;
+
+    background-image: url(assets/img/1.png);
+    background-size: initial;
+    background-repeat: no-repeat;
+}
+
+.section-2 article p {
+    text-align: justify;
+    margin: 10px 160px;
+}
+
+.section-2 p {
+    text-align: center;
+}
+
+/*main-Section-3*/
+.section-3 {
+    background-color: rgb(89, 142, 241);
+    font-size: initial;
+    width: 100%;
+    height: 400px;
+}
+
+.article-box {
+    margin: 0 20px;
+    display: flex;
+}
+
+.section-3 article {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: 0px 20px;
+}
+
+.section-heading {
+    margin: 20px 20px;
+    padding-right: 200px;
+    padding-top: 20px;
+}
+
+.button {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.article-box p {
+    text-decoration: underline 4px solid blue;
+    padding: 4px;
+    width: 140px;
+}
+
+/*main-section-4*/
+.section-4 {
+    font-size: initial;
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+.section_1 {
+    margin: 25px;
+    width: 30%;
+    height: 450px;
+}
+
+.section_1 img {
+    width: 90%;
+    height: 450px;
+    border-radius: 100%;
+}
+
+.article-block {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 20px 20px 20px;
+}
+
+.article-block-1 {
+    color: aliceblue;
+    background-color: black;
+}
+
+.article-block-2 {
+    color: rgb(24, 23, 23);
+    background-color: rgb(231, 227, 227);
+}
+
+.article-block h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+/*main-section-5*/
+
+.section-5 {
+    margin: 20px;
+    font-size: 20px;
+    width: fit-content;
+    height: 500px;
+}
+
+.image {
+    width: 24%;
+    height: 380px;
+    margin: 0;
+    font-size: 0;
+}
+
+/*main-section-6*/
+.section-6 {
+    font-size: initial;
+    width: 100%;
+    height: 600px;
+    background-color: steelblue;
+}
+
+
+.section_3 {
+    height: 470px;
+    display: block;
+    color: aliceblue;
+    margin: 10px 60px 10px 40px;
+}
+
+.section_3_3 {
+    height: 130px;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+td {
+    height: 20px;
+    border-collapse: collapse;
+    width: 60%;
+    border-style: none;
+}
+
+tr {
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    color: white;
+    border-color: aliceblue;
+}
+
+/*main-section-7*/
+.section-7 {
+    font-size: initial;
+    width: 100%;
+    height: 780px;
+}
+
+.section-7>h1 {
+    font-size: 30px;
+}
+
+.section-7>h1,
+h6 {
+    text-align: center;
+}
+
+.section_7 {
+    margin: 10px 30px;
+    height: 160px;
+    width: 95%;
+    background-color: rgb(184, 186, 187);
+    display: flex;
+}
+
+.section_7_1 {
+    width: 25%;
+    margin: 10px 20px;
+    padding-left: 30px;
+}
+
+.section_7_2 {
+    width: 75%;
+    margin-right: 20px;
+}
+
+.img-7 {
+    width: 100%;
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+}
+
+/*main-section-8*/
+.section-8 {
+    font-size: initial;
+    width: 100%;
+    display: flex;
+    height: 250px;
+    text-align: center;
+    background-color: royalblue;
+}
+
+.section_8 {
+    padding-top: 40px;
+    width: 23%;
+    text-align: center;
+}
+
+/*main-section-9*/
+.section-9 {
+    background-image: url(/images/inutative.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    font-size: initial;
+    text-align: center;
+    margin: 0;
+}
+
+.section_9 {
+    padding-top: 220px;
+}
+
+.innutative {
+    font-size: 60px;
+}
+
+.section_9 p {
+    margin-bottom: 20px;
+}
+
+/*SCROLL js used*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
